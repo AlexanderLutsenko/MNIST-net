@@ -1,0 +1,1 @@
+Deep convolutional architecture with linear SVM layer that achieves nearly state-of-the-art performance on MNIST classification task.
