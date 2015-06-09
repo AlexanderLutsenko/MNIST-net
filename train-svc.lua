@@ -99,42 +99,6 @@ end
 function make_model()
 	local model = nn.Sequential()
 
-	-- model:add(nn.SpatialConvolutionMM(1, 50, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(50))
-	-- model:add(nn.PReLU(50))
-
-	-- model:add(nn.SpatialConvolutionMM(50, 50, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(50))
-	-- model:add(nn.PReLU(50))
-	-- model:add(nn.SpatialMaxPooling(2, 2, 2, 2)) 
-
-
-	-- model:add(nn.SpatialConvolutionMM(50, 100, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(100))
-	-- model:add(nn.PReLU(100))
-
-	-- model:add(nn.SpatialConvolutionMM(100, 100, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(100))
-	-- model:add(nn.PReLU(100))
-	-- model:add(nn.SpatialMaxPooling(2, 2, 2, 2))
-
-
-	-- model:add(nn.SpatialConvolutionMM(100, 150, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(150))
-	-- model:add(nn.PReLU(150))
-
-	-- model:add(nn.SpatialConvolutionMM(150, 150, 3, 3))
-	-- model:add(nn.SpatialBatchNormalization(150))
-	-- model:add(nn.PReLU(150))
-
-	-- model:add(nn.SpatialDropout(0.5))
-	-- model:add(nn.Reshape(150*1*1, true))
-	-- model:add(nn.LinearSVC(150*1*1, 10, 0.3))
-
-
-
-
-
 	model:add(nn.SpatialConvolutionMM(1, 50, 3, 3))
 	model:add(nn.SpatialBatchNormalization(50))
 	model:add(nn.PReLU(50))
